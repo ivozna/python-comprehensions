@@ -1,5 +1,4 @@
 
-
 def plus(a, b):
     return a + b
 
@@ -41,3 +40,5 @@ def divisible(a, b):
 to find the highest single digit any of the numbers is divisible by"""
 def highest(a, b):
     return {num:max([el for el in range(1, 10) if num % el == 0]) for num in range(a, b) }
+
+
