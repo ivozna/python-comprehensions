@@ -25,3 +25,13 @@ Example file:
 What’s up, how are you today ?, W1, h2,…
 
 Use fixture marker to indicate the name of the file to read.
+
+# find matches task
+1. write a function that returns sentences that are repeated in each file.
+
+2. the list of files must be transmitted via command line arguments. 
+Example: `python find_matches.py file1.txt file2.txt file3.txt`
+
+    Print the result in the console
+
+3. write a bash script that takes the path to the directory, finds all the text files in it, and passes them to the script above. Write the result to a file named "{directory_name (or path)} _ results.txt"
