@@ -1,0 +1,1 @@
+"Practice python every day", P1, r2, a2, c2, t2, i1, e3, p1, y3, h1, o1, n1, v1, d1
