@@ -66,3 +66,8 @@ the code is defined as follows - {row} {column}
 6. Ensure that you run the program from the console as follows:
 
     `python encode.py input.txt codes.txt output.txt`
+
+# combining files
+1. Combine the content of several files into one.
+2. Read the list of files to merge from the file passed as a program argument in the console.
+3. Write the result to a file, the file name is the second argument from the console.
