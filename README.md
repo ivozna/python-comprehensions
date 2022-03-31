@@ -35,3 +35,34 @@ Example: `python find_matches.py file1.txt file2.txt file3.txt`
     Print the result in the console
 
 3. write a bash script that takes the path to the directory, finds all the text files in it, and passes them to the script above. Write the result to a file named "{directory_name (or path)} _ results.txt"
+
+# encoding task
+
+1. read text from input.txt file
+2. read the coding map from the codes.txt file
+
+- example map:
+
+    blue, white, rabbit,\
+    simple, triple,\
+    code, name
+
+3. replace words from the input.txt file with their codes
+the code is defined as follows - {row} {column}
+
+    example:\
+    blue-00\
+    triple-11\
+    rabbit-02
+
+4. write the result to the output.txt file
+5. write tests
+
+    input.txt:\
+    Hello, my name is Ira. I have a rabbit\
+    output.txt:\
+    Hello, my name is Ira. I have a 02
+
+6. Ensure that you run the program from the console as follows:
+
+    `python encode.py input.txt codes.txt output.txt`
