@@ -23,3 +23,6 @@ def test_count_letters(data):
     letter_counts = count_letters(given)
     for letter, count in expected.items():
         assert letter_counts[letter] == int(count)
+
+def test_add():
+    assert 2 + 2 == 4
